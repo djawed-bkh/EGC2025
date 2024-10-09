@@ -3,12 +3,12 @@
 FIP Sampling (FIPS) is an approach for interval pattern sampling dedicated to numerical datasets, proportionally to their frequency. This repository provides everything necessary for executing the binaries and conducting the experimental evaluations.
 
 ## Content of the repository:
-1. **Source Code:** Implementation of the FIPS sampling method.
-2. **Uniform Sampling (With Coverage):** A method for sampling interval patterns uniformly, ensuring non-empty coverage.
-3. **Uniform Sampling (Without Coverage):** A method for uniform interval pattern sampling that does not guarantee coverage.
-4. **Benchmark Datasets:** The datasets used in the experimental protocol.
-5. **Experimental Results:** Text files containing the results for all datasets.
-6. **Graphical Results:** Visual representations of the experimental results for each dataset.
+1. **Source Code for FIPS:** Implementation of the FIPS sampling method (see src directory).
+2. **Source Code for uniform Sampling (With Coverage):** A method for sampling interval patterns uniformly, ensuring non-empty coverage (see src directory).
+3. **Source Code for uniform Sampling (Without Coverage):** A method for uniform interval pattern sampling that does not guarantee coverage (see src directory).
+4. **Benchmark Datasets:** The datasets used in the experimental protocol (see benchmark directory).
+5. **Experimental Results:** Text files containing the results for all datasets (see results directory).
+6. **Graphical Results:** Visual representations of the experimental results for each dataset (see the pdf file).
 
 
 
