@@ -230,7 +230,6 @@ public class Database {
 
     public Database randomizeNumericalDB() {
         /*
-         * todo: improve this code to be faster by swapping loops
          * Method that randomizes the current numerical data though random permutations of values in each attribute
          *
          * Retrun the randomized Database
