@@ -44,13 +44,13 @@ java -jar FIP_Sampling.jar drawtotalyrandomip <path of the desired numerical dat
 ### 5. Evaluate the frequency based plausibility for FIPS
 To evaluate the plausibility of interval patterns drawn with FIPS:
 ```bash
-java -jar FIP_Sampling.jar evaluateplausibilityfips <path of the desired numerical dataset> <Number of Interval patterns (fixed to 100 000 in the paper)> <Number of randomised databases (fixed to 10 in the paper) > <Minimum frequency threshold> <Maximum frequency threshold>
+java -jar FIP_Sampling.jar evaluateplausibilityfips <path of the desired numerical dataset> <Number of Interval patterns (fixed to 100 000 in the paper)> <Number of randomised databases (fixed to 10 in the paper) > <Minimum frequency threshold (between 0.0 and 1.0)> <Maximum frequency threshold(between 0.0 and 1.0)>
 ```
 
 ### 6. Evaluate the frequency based plausibility for the uniform interval pattern sampling
 To evaluate the plausibility of random interval patterns:
 ```bash
-java -jar FIP_Sampling.jar evaluateplausibilityrandomip <path of the desired numerical dataset> <Number of Interval patterns (fixed to 100 000 in the paper)> <Number of randomised databases (fixed to 10 in the paper)> <Minimum frequency threshold> <Maximum frequency threshold>
+java -jar FIP_Sampling.jar evaluateplausibilityrandomip <path of the desired numerical dataset> <Number of Interval patterns (fixed to 100 000 in the paper)> <Number of randomised databases (fixed to 10 in the paper)> <Minimum frequency threshold(between 0.0 and 1.0)> <Maximum frequency threshold(between 0.0 and 1.0)>
 ```
 
 ### 7. CPU time (s)  evolution when sampling with FIPS
