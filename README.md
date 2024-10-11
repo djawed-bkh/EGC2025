@@ -3,12 +3,12 @@
 FIP Sampling (FIPS) is an approach for interval pattern sampling dedicated to numerical datasets, proportionally to their frequency. This repository provides everything necessary for executing the binaries and conducting the experimental evaluations.
 
 ## Content of the repository:
-1. **Source Code for FIPS:** Implementation of the FIPS sampling method ([src directory](https://anonymous.4open.science/r/EGC2025-8153/src/)).
-2. **Source Code for uniform Sampling (With Coverage):** A method for sampling interval patterns uniformly, ensuring non-empty coverage ([src directory](https://anonymous.4open.science/r/EGC2025-8153/src/)).
-3. **Source Code for uniform Sampling (Without Coverage):** A method for uniform interval pattern sampling that does not guarantee coverage ([src directory](https://anonymous.4open.science/r/EGC2025-8153/src/)).
+1. **Source Code for FIPS:** Implementation of the FIPS sampling method (see src directory).
+2. **Source Code for uniform Sampling (With Coverage):** A method for sampling interval patterns uniformly, ensuring non-empty coverage (see src directory).
+3. **Source Code for uniform Sampling (Without Coverage):** A method for uniform interval pattern sampling that does not guarantee coverage (see src directory).
 4. **Jar file for lunching experiments** A JAR file is provided to run all the experiments presented in the article by following the commands outlined above([Jar directory](https://anonymous.4open.science/r/EGC2025-8153/FIP_Sampling.jar)). 
-5. **Benchmark Datasets:** The datasets used in the experimental protocol ([Benchmark directory](https://anonymous.4open.science/r/EGC2025-8153/benchmark/)).
-6. **Experimental Results:** Text files containing the results for all datasets ([Results directory](https://anonymous.4open.science/r/EGC2025-8153/results/)).
+5. **Benchmark Datasets:** The datasets used in the experimental protocol (see benchmark directory).
+6. **Experimental Results:** Text files containing the results for all datasets (see Results directory).
 7. **Graphical Results:** Visual representations of the experimental results for each dataset ([PDF file](https://anonymous.4open.science/r/EGC2025-8153/Annexe_EGC_2025.pdf) ).
 
 
